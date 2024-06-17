@@ -94,7 +94,7 @@ public class ProductControllerTest {
                 .content(objectMapper.writeValueAsString(productDTO)))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.id", is(productId)))
-                .andExpect(jsonPath("$.name", is("Updated Product")));
+                .andExpect(jsonPath("$.title", is("Updated Product")));
 
     }
 
