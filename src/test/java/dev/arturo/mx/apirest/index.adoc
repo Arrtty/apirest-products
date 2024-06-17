@@ -1,0 +1,21 @@
+= API Documentation
+
+== Products API
+
+=== Get Products
+
+include::{snippets}/get-products/response-fields.adoc[]
+
+=== Save Product
+
+include::{snippets}/save-product/request-fields.adoc[]
+
+=== Update Product
+
+include::{snippets}/update-product/path-parameters.adoc[]
+include::{snippets}/update-product/request-fields.adoc[]
+include::{snippets}/update-product/response-fields.adoc[]
+
+=== Delete Product
+
+include::{snippets}/delete-product/path-parameters.adoc[]

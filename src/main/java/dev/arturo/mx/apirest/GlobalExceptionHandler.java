@@ -1,4 +1,4 @@
-package dev.arturo.mx.apirest.controller;
+package dev.arturo.mx.apirest;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
