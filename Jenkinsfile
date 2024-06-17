@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the source code from Git
-                git url: 'https://github.com/Arrtty/apirest-products'
+                git branch: 'main', url: 'https://github.com/Arrtty/apirest-products'
             }
         }
 
