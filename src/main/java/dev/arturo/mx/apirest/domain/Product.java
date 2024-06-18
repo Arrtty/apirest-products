@@ -14,12 +14,23 @@ public class Product implements Serializable {
 
     @Id
     @NonNull
+    @Getter
+    @Setter
     private int id;
+    @Getter
+    @Setter
     private String imagePath;
+    @Getter
+    @Setter
     private String title;
+    @Getter
+    @Setter
     private String description;
+    @Getter
+    @Setter
     private String distributor;
-
+    @Getter
+    @Setter
     private Date releaseDate;
 
     public Product(int id, String imagePath, String title, String description) {
@@ -27,54 +38,6 @@ public class Product implements Serializable {
         this.imagePath = imagePath;
         this.title = title;
         this.description = description;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getImagePath() {
-        return imagePath;
-    }
-
-    public void setImagePath(String imagePath) {
-        this.imagePath = imagePath;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getDistributor() {
-        return distributor;
-    }
-
-    public void setDistributor(String distributor) {
-        this.distributor = distributor;
-    }
-
-    public Date getReleaseDate() {
-        return releaseDate;
-    }
-
-    public void setReleaseDate(Date releaseDate) {
-        this.releaseDate = releaseDate;
     }
 
 }
